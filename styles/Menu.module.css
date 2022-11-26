@@ -25,7 +25,7 @@
 .menu{
     display: flex;
     flex-wrap: wrap;
-    row-gap: 2rem;
+    gap: 2rem;
     align-items: center;
     justify-content: space-around;
 }
