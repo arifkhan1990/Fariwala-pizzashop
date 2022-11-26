@@ -13,7 +13,17 @@
     font-weight: bold;
 }
 
-.logo{
+.header{
+    display: flex;
+    gap: 3rem;
+    margin-top: 6rem;
+    align-items: center;
+    background:  linear-gradient(180deg, rgb(223 234 252 / 32%) 0%, rgba(255, 255, 255, 0) 30rem);
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+/* .logo{
     display: flex;
     justify-items: center;
     justify-content: center;
@@ -23,13 +33,38 @@
 .logo>span{
     font-weight: bold;
     font-size: 1.5rem;
+} */
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    flex: 1;
 }
 
+.logo>span{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.reservedTit>span>span{
+    cursor: pointer;
+}
+.rightSide{
+    flex:1;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
 .social{
     display: flex;
     gap:1rem;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-.social>*{
+.social>a>*{
     fill: var(--themeRed);
+    cursor: pointer;
 }
