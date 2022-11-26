@@ -13,8 +13,8 @@
     border-radius: 2rem;
 }
 
-.ImageWrapper{
-    transform: scale(1.1);
+.imgHover:hover{
+    transform: scale(1.5);
 }
 
 .right{
